@@ -22,7 +22,7 @@ public class StudentController {
             .getLogger(StudentController.class);
 
 	public StudentController() {
-		System.out.println("---------StudentController--------------------");
+		System.out.println("--------------------StudentController--------------------");
 	}
 	
 	@Autowired
