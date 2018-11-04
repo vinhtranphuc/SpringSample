@@ -2,12 +2,15 @@ package com.vinhtran.dao;
 
 import java.util.List;
 
+import javax.transaction.Transactional;
+
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.vinhtran.model.Student;
 
+@Transactional
 @Repository
 public class StudentDAOImpl implements StudentDAO {
 	
